@@ -149,7 +149,6 @@ body:
         - "Yes"
         - "No"
   - type: input
-  - type: textarea
     id: Abuse
     attributes:
       label: How do you intend to prevent the abuse of DataCap?
@@ -158,7 +157,6 @@ body:
       value: 
     validations:
       required: false
-  - type: input
   - type: textarea
     id: Response
     attributes:
