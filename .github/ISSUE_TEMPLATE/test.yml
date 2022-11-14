@@ -41,7 +41,7 @@ body:
       placeholder: Please answer here.
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: Social_Media
     attributes:
       label: Do you have other social media account related to you?
@@ -134,7 +134,7 @@ body:
   - type: textarea
     id: Plan
     attributes:
-      label: Please describe your DataCap allocation plans . Include percentage of allocation, time of allocation, number of allocations, area of allocation, number of SPs, etc.The more detailed, the better.
+      label: Please describe your DataCap allocation plans.Include percentage of allocation, time of allocation, number of allocations, area of allocation, number of SPs, etc.The more detailed, the better.
       description: Please describe.
       placeholder: Please answer here.
       value: 
@@ -157,7 +157,7 @@ body:
       value: 
     validations:
       required: false
-  - type: textarea
+  - type: input
     id: Response
     attributes:
       label: If there is a dispute during the application procedure? Can you guarantee response in time?
@@ -167,11 +167,11 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Assign_To_Miner
+    id: SPs
     attributes:
-      label: Are you looking to assign this project to any particular miner?
-      description: If you are looking to assign this project to a particular miner, please provide details.
-      placeholder: I am not looking to assign this project to any miner in particular.
+      label: Have you selected any particular SPs.
+      description: If you have selected particular SPs, please provide details.
+      placeholder: Please answer here.
       value: 
     validations:
       required: true
